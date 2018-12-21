@@ -1,0 +1,107 @@
+* {
+  color: white;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  background-image: url("space.jpg");
+}
+
+footer img {
+  margin: 40px 10px 0px 10px;
+  width: 32px;
+  height: 32px;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row, footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+section h1 {
+  color: #4684ED;
+  font-family: 'Libre Baskerville', serif;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.contact {
+  background-color: black;
+  width: 100%;
+}
+
+.contact p {
+  padding-top: 50px;
+}
+
+.dropdown-toggle ~ .dropdown-menu {
+  display: block;
+  opacity: 0;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  -o-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  text-align: center;
+}
+
+.dropdown-toggle:hover ~ .dropdown-menu, .dropdown-toggle ~ .dropdown-menu:hover {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  text-align: center;
+}
+
+.dropdown-toggle ~ .dropdown-menu {
+  visibility: hidden;
+}
+
+.jumbotext {
+  background-color: black;
+  opacity: 0.85;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url("pelkey.jpg");
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
